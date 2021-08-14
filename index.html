@@ -23,7 +23,7 @@
 
         <main>
                 <section class="container">
-                        <div class="row">
+                        <div class="row g-5">
                                 <div class="col-lg-7">
                                         <div class="row border border-success border-3 border rounded-3">
                                                 <div class="col-lg-5 d-flex justify-content-center align-items-center">
@@ -33,16 +33,46 @@
                                                 <div
                                                         class="col-lg-7 d-flex justify-content-center align-items-center p-3">
                                                         <div>
-                                                                <h2>Mashrafe Mortaza</h2>
-                                                                <button class="btn btn-success mt-2"><i
-                                                                                class="fas fa-user-plus"> </i> Add
+                                                                <h2 class="player-name">Mashrafe Mortaza</h2>
+                                                                <button id=""
+                                                                        class="added-button btn btn-success mt-2 ">
+                                                                        <i class="fas fa-user-plus"> </i> Add
                                                                         Team</button>
+                                                                <div class="delete-button">
+                                                                        <button id=""
+                                                                                class="delete-btn btn btn-danger mt-2 display-none"><i
+                                                                                        class="fas fa-user-minus"></i>
+                                                                                Delete
+                                                                                Player</button>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="row border border-success border-3 border rounded-3">
+                                                <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                                                        <img class="img-fluid w-75" src="images/Mahmudullah-CWC19.png"
+                                                                alt="">
+                                                </div>
+                                                <div
+                                                        class="col-lg-7 d-flex justify-content-center align-items-center p-3">
+                                                        <div>
+                                                                <h2 class="player-name">Mahmudullah Riad</h2>
+                                                                <button id=""
+                                                                        class="added-button btn btn-success mt-2 ">
+                                                                        <i class="fas fa-user-plus"> </i> Add
+                                                                        Team</button>
+                                                                <div class="delete-button">
+                                                                        <button id=""
+                                                                                class="delete-btn btn btn-danger mt-2 display-none "><i
+                                                                                        class="fas fa-user-minus"></i>
+                                                                                Delete
+                                                                                Player</button>
+                                                                </div>
                                                         </div>
                                                 </div>
                                         </div>
                                 </div>
-
-                                <div class="col-lg-5">
+                                <div id="player-container" class="col-lg-5 border border-dark round-2">
 
                                 </div>
                         </div>
